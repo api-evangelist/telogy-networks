@@ -1,8 +1,27 @@
 aid: telogy-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telogy-networks.png
 name: Telogy Networks
-description: Telogy Networks is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: 'Telogy Networks was one of the first companies to deliver software solutions
+  enabling voice over IP (VoIP) networks. Founded in 1989 and headquartered in Germantown,
+  Maryland, the company built the Golden Gateway telephony software and DSP-resident voice/fax
+  media processing stacks that were embedded into carrier and enterprise gateway equipment.
+  Backed by Lightspeed Venture Partners (invested 1997), ABS Ventures, Ameritech Development,
+  Catalyst Venture Partners, and Novak Biddle Venture Partners, Telogy Networks was acquired
+  by Texas Instruments in 1999 for roughly $457 million, where its VoIP media-gateway software
+  became the basis of TI''s telephony DSP product line. Telogy no longer operates as an
+  independent entity and publishes no developer portal, public API, or SDK. This record is
+  retained in the API Evangelist network as a historical VC-portfolio company profile.'
 url: https://raw.githubusercontent.com/api-evangelist/telogy-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,31 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: texas-instruments
+x-acquired-year: 1999
+x-founded-year: 1989
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Telecommunications
+- Voice over IP
+- VoIP
+- Media Gateway
+- DSP
+- Networking
+- Acquired
 apis: []
+common: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
