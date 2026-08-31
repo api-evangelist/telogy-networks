@@ -68,3 +68,9 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/texas-instruments/
+  name: Texas Instruments
+  x-relationship: acquired
+  x-evidence: "Backed by Lightspeed Venture Partners (invested 1997), ABS Ventures, Ameritech Development, Catalyst Venture Partners, and Novak Biddle Venture Partners, Telogy Networks was acquired by Texas Instruments in 1999 for roughly $457 million, wh"
