@@ -53,9 +53,9 @@ tags:
 - Voice over IP
 - VoIP
 - Media Gateway
-- DSP
 - Networking
 - Acquired
+- Digital Signal Processing
 apis: []
 common: []
 maintainers:
@@ -74,3 +74,5 @@ common:
   name: Texas Instruments
   x-relationship: acquired
   x-evidence: "Backed by Lightspeed Venture Partners (invested 1997), ABS Ventures, Ameritech Development, Catalyst Venture Partners, and Novak Biddle Venture Partners, Telogy Networks was acquired by Texas Instruments in 1999 for roughly $457 million, wh"
+x-tags-removed:
+- DSP
